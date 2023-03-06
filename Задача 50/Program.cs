@@ -50,4 +50,4 @@ int[,] array = GetArray(rows, colums, minValue, maxValue);
 PrintArray(array);
 // Вывод результатов поиска элемента по индексам
 if (n >= rows || m >= colums) { Console.WriteLine("Элемента с такими индексами не существует"); }
-else { Console.WriteLine($"Элемент {n}-й строки {m}-го столбца равен {array[n, m]}"); }
+else { Console.WriteLine($"Элемент {n}-й строки {m}-го столбца равен {array[n-1, m-1]}"); }
